@@ -2,7 +2,14 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, p, body {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
   margin: 0;
   padding: 0;
 }
@@ -19,7 +26,11 @@ body {
   font-family: "Avenir", sans-serif;
 }
 
-.face, .inst, .pint, .basket, .login-img {
+.face,
+.inst,
+.pint,
+.basket,
+.login-img {
   display: flex;
   width: 17px;
   height: 17px;
@@ -117,17 +128,23 @@ body {
   max-width: 400px;
   margin: 0;
   transition: 0.3s;
+  border: 1px solid transparent;
+  cursor: pointer;
 }
 
 .page-content__card:hover {
-  border: 1px solid rgba(211, 211, 211, 0.459);
-  border-radius: 2px;
+  border: 1px solid rgba(14, 13, 13, 0.459);
+  border-radius: 5px;
 }
 
 .page-content__image {
   display: flex;
   max-width: 353px;
   height: 353px;
+}
+
+.page-content__image-item {
+  width: 100%;
 }
 
 .card-title {
